@@ -1,4 +1,0 @@
-Shape	CentroidX	CentroidY
-square	51.0	340.25
-triangle	273.33	288.33
-hexagon	100.5	136.83
