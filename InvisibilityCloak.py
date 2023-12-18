@@ -1,6 +1,6 @@
 import cv2, numpy as np
-
-capture = cv2.VideoCapture("assignment2Vid.mp4")
+videoPath ="" ## enter your video path here
+capture = cv2.VideoCapture(videoPath)
 val,bg = capture.read()
 h,w = bg.shape[:2]
 bg = cv2.resize(bg,(int(w/3), int(h/3)))
